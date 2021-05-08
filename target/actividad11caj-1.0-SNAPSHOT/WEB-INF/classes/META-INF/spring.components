@@ -1,0 +1,2 @@
+com.mycompany.actividad11caj.DemoApplication=org.springframework.stereotype.Component
+com.mycompany.controller.Controller=org.springframework.stereotype.Component

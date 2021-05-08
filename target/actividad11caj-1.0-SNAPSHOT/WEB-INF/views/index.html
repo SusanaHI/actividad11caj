@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <div><br>SPRING FRAMEWORK MVC<br><br>
+            <form action="#" th:action="@{/suma}" th:object="${suma}" method="post">
+                BIENVENIDO <br><br> Introduce dos numeros flotantes para sumar:<br>
+                Numero 1:<br>
+                    <input type="text" th:field="*{n1}" /><br>
+                Numero 2:<br>
+                <input type="text" th:field="*{n2}" />
+                <input type="submit" value="Sumar">
+            </form>
+        </div>
+    </body>
+</html>

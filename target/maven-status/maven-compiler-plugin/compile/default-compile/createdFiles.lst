@@ -1,0 +1,4 @@
+com\mycompany\actividad11caj\DemoApplication.class
+com\mycompany\model\suma.class
+META-INF\spring.components
+com\mycompany\controller\Controller.class
